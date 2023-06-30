@@ -1,0 +1,200 @@
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap";
+*{font-family:'Roboto',sans-serif}
+h1,h2,h3,h4,h5{font-family:'Lato',sans-serif!important}
+.row{margin:0!important}
+.main{width:100%;float:left}
+.main .container{max-width:1400px}
+.main h2{font-size:40px;margin-bottom:30px}
+.main h2 span{font-weight:800}
+.header{width:100%;float:left;border-top:4px solid #000}
+.header:before{content:"";height:45px;background:#000;width:65%;position:absolute;right:0}
+.header:after{content:"";height:45px;width:38%;position:absolute;left:0;border-right:36px solid #fff0;border-bottom:45px solid #fff}
+.header-main{width:100%;float:left;position:relative;z-index:1}
+.header-main .logo{width:100%;float:left;display:flex;align-items:center;justify-content:center;height:100%}
+.header-top.header-top-mbl{display:none}
+.header-top{width:100%;float:left;padding:10px;position:relative}
+.header-top ul.header-contact{padding:0;text-align:right;margin:0}
+.header-top ul.header-contact li{display:inline-block;padding-left:25px}
+.header-top ul.header-contact li i{margin-right:5px;font-size:18px}
+.header-top ul.header-contact li a{color:#fff;text-decoration:none}
+.navigation .navbar.navbar-expand-lg{background-color:transparent!important}
+.navigation .navbar-dark .navbar-nav a{color:#000!important;padding-left:25px!important;padding-right:0!important}
+.Who_We_Are{width:100%;padding:50px 0;float:left}
+.Who_We_Are h2 span{font-weight:800}
+.Who_We_Are_left{justify-content:center;display:flex;flex-direction:column}
+.Who_We_Are button{background:#414141;border:none;color:#fff;border-radius:3px;width:120px;height:42px}
+.Who_We_Are h2{font-size:35px}
+.Who_We_Are p{margin-bottom:40px;line-height:27px}
+.Who_We_Are_right img{width:100%}
+.navbar-dark .navbar-toggler-icon{background:#000;height:5px}
+.navbar-dark .navbar-toggler-icon{position:absolute;background:#000;height:3px;right:0}
+.navbar-dark .navbar-toggler-icon:before{content:"";background:#000;height:3px;position:absolute;top:7px;width:1.5em;right:0}
+.navbar-dark .navbar-toggler-icon:after{content:"";background:#000;height:3px;position:absolute;bottom:7px;width:1.5em;right:0}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{justify-content:end!important;padding-right:0}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .container{padding:0!important}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark button.navbar-toggler{outline:none!important}
+.navbar-logo{display:none}
+.navbar-expand-lg .navbar-nav{margin-left:auto!important;margin-right:0!important}
+.footer{width:100%;float:left;padding-top:50px}
+.footer-top{width:100%;float:left}
+.footer-top img{margin-bottom:20px}
+.footer-middle{width:100%;float:left;padding-top:60px}
+.footer-middle h3{font-size:20px;margin-bottom:25px;font-weight:600}
+.footer-middle ul{padding:0}
+.footer-middle li{list-style:none;margin-bottom:6px}
+.footer-middle a{color:#000;text-decoration:none}
+.footer-middle a:hover{color:#000;text-decoration:none}
+.footer-posts-inr{display:flex}
+.footer-posts-inr .footer-posts-lft{margin-right:10px}
+.footer-posts-rgt h3{font-size:16px;margin-bottom:4px}
+.footer-posts-rgt h4{font-size:16px;margin-bottom:1px}
+.footer-posts-rgt p{font-size:14px}
+.footer-middle li i{margin-right:3px}
+.footer-bottom{width:100%;text-align:center;float:left;padding:20px 0}
+.footer-bottom p{margin:0}
+.follow{width:100%;float:left;background:#F5F5F7;padding:40px 0;text-align:center}
+.follow h2{margin-bottom:30px;font-weight:600}
+.follow form{position:relative}
+.follow form input.email{background:#fff;border-radius:50px;width:100%;padding-left:20px;border:none;height:45px}
+.follow form button.submit{background:#000;border-radius:50%;height:40px;width:40px;position:absolute;right:3px;top:3px;border:none}
+.follow form button.submit i{color:#fff;font-size:20px}
+.Services{width:100%;background:#F5F5F7;float:left;padding:40px 0;text-align:center}
+.Services-inr{width:100%;float:left;min-height:391px;border-radius:25px;background:#fff;text-align:center;border-top-left-radius:70px;margin-bottom:100px}
+.Services-icon-inr{height:100px;width:100px;display:flex;align-items:center;justify-content:center;margin:0 auto;position:absolute;left:38%;transform:translateY(-53px);transition:all .5s ease-in-out}
+.Services-icon-inr:before{height:100px;background:#000;width:100px;margin:0 auto;position:absolute;content:"";transform:rotate(45deg);border-radius:25px}
+.Services-icon-inr img{position:relative;z-index:1}
+.Our_Services{margin-top:100px}
+.Services-cnt{padding:20px;width:100%;float:left;margin-top:60px}
+.Services-cnt h2{margin-bottom:40px;text-transform:uppercase;font-size:25px}
+.Services-cnt h2 span{border-bottom:2px solid #000;padding-bottom:10px}
+.Services-inr button{background:transparent;border:none;font-weight:500;display:none}
+.Services-inr .Services-img-b{display:none}
+.Services-inr:hover .Services-icon-inr{position:static;transform:translateY(0px)}
+.Services-inr:hover .Services-icon-inr:before{background:#fff}
+.Services-inr:hover .Services-icon{width:100%;border-radius:25px;border-bottom-right-radius:70px;padding:40px;float:left;border-bottom-left-radius:70px;background:#000}
+.Services-inr:hover .Services-img-b{display:block}
+.Services-inr:hover .Services-img{display:none}
+.Services-inr:hover .Services-cnt{margin-top:0}
+.Services-inr:hover p{display:none}
+.Services-inr:hover button{display:inline-block}
+.Services-inr:hover .Services-icon{margin-bottom:30px}
+.Choose_us{padding:50px 0;width:100%;float:left;text-align:center}
+.Choose_us-inr{width:100%;float:left;margin-top:40px}
+.Choose_us-itm{display:flex;text-align:left;margin-bottom:30px}
+.Choose_us-lft{margin-right:10px}
+.Choose_us-rgt h3{font-size:20px}
+.blog{width:100%;float:left;padding:50px 0;text-align:center}
+.blog-inr{margin-top:40px}
+.blog-sgl{position:relative;margin-bottom:20px}
+.blog-cnt{top:0;width:100%;height:100%;background:#000;color:#fff;position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px;box-shadow:0 0 5px #cbcbcb;border:3px solid #fff;opacity:0;visibility:hidden;-webkit-transition:opacity 600ms,visibility 600ms;transition:opacity 600ms,visibility 600ms}
+.blog-sgl img{width:100%}
+.blog-sgl:hover .blog-cnt{visibility:visible;opacity:1}
+.blog-cnt h3{font-size:20px}
+.testimonial{width:100%;float:left;background:#f5f5f7;padding:50px 0;text-align:center}
+#demo{max-width:1200px;margin:auto}
+.testimonial .carousel-caption{position:static;padding:0}
+.carousel-inner{background:#fff;color:#000}
+.testimonial .carousel-caption p{color:#000;margin:0}
+.carousel-caption-inr{display:flex;padding:20px 100px;align-items:center;justify-content:center}
+.carousel-caption-inr img.img-fluid{margin-right:20px}
+.carousel-name{background:#000;padding:10px;font-weight:500;font-size:20px}
+.testimonial .carousel-control{opacity:1;width:auto}
+.testimonial .carousel-control i{padding:5px;border:1px solid;font-size:20px;color:#000;border-radius:50%;display:flex;align-items:center;justify-content:center;width:35px;height:35px;text-align:center}
+.testimonial .carousel-control-prev{left:15px}
+.testimonial .carousel-control-next{right:15px}
+.about{background:#f5f5f7;}
+.about-banner img {width: 100%;}
+.about-success {width: 100%;float: left;background:#f5f5f7;text-align: center;padding: 50px 0;}
+.about-success-inr {box-shadow: 0 4px 3px #dad8d8;background: #fff;padding: 30px;border-radius: 20px;border-top-left-radius: 90px;}
+.about-success-inr img {margin-bottom: 20px;}
+.about-success-inr h3 {margin-bottom: 20px;}
+.banner.banner-portfolio {position: relative;width: 100%;float: left;height: 500px;overflow: hidden;display: flex;align-items: center;justify-content: center;}
+.banner.banner-portfolio img {width: 100%;}
+.banner.banner-portfolio h2 {position: absolute;text-transform: uppercase;font-size: 40px;font-weight: 600;text-align: center;width: 100%;}
+.portfolio {width: 100%;float: left;margin-top: 40px;padding: 50px 0;}
+.portfolio .portfolioBtnContainer {width: 100%;float: left;}
+.portfolio .portfolioBtnContainer button.btn {border: 1px solid #F5F5F7;background: #fff;font-size: 20px;padding: 5px 20px;border-radius: 0;float: left;}
+.portfolio .portfolioBtnContainer button.btn.active {background: #F5F5F7;color: #000;}
+.portfolio-dtl {width: 100%; background: #F5F5F7;float: left;border: 1px solid #F5F5F5;padding:20px;}
+.portfolio .filterDiv.show {display: block;}
+.portfolio-inr {background: #fff;padding: 10px;position: relative;border-radius: 5px;text-align: center;margin-bottom: 20px;}
+.portfolio-inr img{width: 100%;}
+.portfolio-inr .portfolio-cnt {display: none;}
+.portfolio-inr:hover .portfolio-cnt {border-radius: 5px;position: absolute;width: 100%;height: 100%;background: rgb(0 0 0 / 69%);top: 0;color: #fff;padding: 20px;display: flex;align-items: center;justify-content: center;flex-direction: column;left: 0;}
+.portfolio .portfolioBtnContainer button.btn:focus {box-shadow: none !important;}
+.portfolio-inr .portfolio-cnt h3 {font-size: 22px;}
+.portfolio-inr .portfolio-cnt h2 {font-size: 25px;}
+.banner.banner-banner img {width: 100%;}
+.banner.banner-banner {width: 100%;height: 500px;float: left;overflow: hidden;}
+.blog-page {width: 100%;float: left;padding: 50px 10px;}
+.blog-single {width: 100%;float: left;margin-bottom: 20px;background: #F5F5F7;box-shadow: 0 0 4px #ddd;border: 1px solid #E0E0E0;}
+.blog-single-inr{padding:40px; }
+.blog-single h2 {background: #fff;font-size: 25px;margin: 0;padding: 15px 40px;font-weight: 600;}
+.blog-single img {margin-bottom: 20px ;}
+.blog-single button {background: #000;padding: 10px 16px;color: #fff;border: none;}
+.blog-single-page h2 {background: #fff;font-size: 25px;margin: 0;padding: 15px 40px;font-weight: 600;}
+.contact-us {width: 100%;float: left;padding: 50px 0;}
+.contact-info {padding-right: 20px;}
+.contact-info {padding-right: 20px;margin-bottom: 25px;}
+.contact-info h3 {font-size: 25px;margin-bottom: 25px;}
+.contact-info ul {padding: 0;}
+.contact-info ul li{list-style: none;margin-bottom: 12px;}
+.contact-info ul li a {color: #000;}
+.contact-info ul li a:hover {color: #000;text-decoration: none;;}
+.contact-form {width: 100%;float: left;padding: 30px;background: #F5F5F7;}
+.contact-form input {width: 100%;border: none;height: 45px;margin-bottom: 20px;padding-left: 15px;}
+.contact-form textarea {width: 100%;border: none;min-height: 100px;margin-bottom: 20px;padding:  10px 15px;}
+.contact-form input[type="submit"] {width: auto;background: #000;color: #fff;padding: 10px 30px;}
+.contact-map {width: 100%;float: left;height: calc(100% - 176px);overflow: hidden;}
+.contact-map iframe{width: 100%;height: 100%;}
+
+
+
+@media screen and (max-width:991px) {
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{padding:0}
+.header-top.header-top-des{display:none}
+.header-top.header-top-mbl{display:block;background:#000}
+.header:before,.header:after{display:none}
+.header-main{width:100%;float:left;position:relative;z-index:1;padding:15px 0}
+.header-main .logo{display:none}
+.navbar-logo{display:block}
+.navbar-expand-lg .navbar-nav{margin-top:15px}
+.navigation .navbar-dark .navbar-nav a{padding-left:0!important}
+}
+@media screen and (max-width:767px) {
+.about-success-inr { margin-bottom: 30px;padding: 20px; }
+    
+.Services-icon-inr{left:42%}
+.Who_We_Are_right img{margin-top:30px}
+.Services-inr{min-height:auto}
+.carousel-caption-inr{display:block}
+.contact-form {margin-top: 20px;}
+}
+@media screen and (max-width:600px) {
+.blog-single h2 {font-size: 20px;padding: 10px;line-height: 1.4;}
+.blog-single-inr {padding:10px;}
+.header-top ul.header-contact li{display:inline-block;padding-left:15px}
+.header-top ul.header-contact li i{margin-right:0;font-size:16px}
+.header-top ul.header-contact li a{color:#fff;text-decoration:none;font-size:14px}
+}
+@media screen and (max-width:575px) {
+.main h2{font-size:30px}
+.Choose_us{padding:50px 10px}
+.Services{padding:40px 10px}
+.footer-certificate{display:flex;align-items:center}
+.footer-certificate img{margin-right:12px}
+.carousel-caption-inr{padding:20px 30px}
+.testimonial .carousel-control i{font-size:15px;width:25px;height:25px}
+.testimonial .carousel-control-prev{left:5px}
+.testimonial .carousel-control-next{right:5px}
+.testimonial{padding:50px 10px}
+}
+@media screen and (max-width:475px) {
+.main .container{padding:0}
+.header-top ul.header-contact li{padding-left:6px}
+.header-top ul.header-contact li a{font-size:13px}
+.header-top ul.header-contact li i{font-size:14px}
+}
+@media screen and (max-width:420px) {
+.header-top ul.header-contact li.time{display:none}
+}
